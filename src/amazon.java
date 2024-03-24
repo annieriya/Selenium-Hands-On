@@ -19,7 +19,7 @@ public class amazon {
 	for(int i=0 ; i <phone.size(); i++)
 {
 		String name=phone.get(i).getText();
-		if(name.contains("Purple"));
+		if(name.contains("Green"));
 		{
 			driver.findElement(By.cssSelector("span.a-size-medium.a-color-base.a-text-normal")).click();
 		}
